@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+.navmenu{
+	border-bottom: 1px black;
+	text-align: center;
+	height: 61px;
+	line-height: 61px;
+}
+
+.navigationbar{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ab1515;
+	text-align: center;	
+}
+
+.navigationbar a{
+	font-family: copperplate;
+	margin: 20px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: white;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+label{
+	margin: 0 30px 0 0;
+	font-size: 20px;
+	line-height: 20px;
+	display: none;
+	width: 35px;
+	float: right;
+}
+
+#menutoggle{
+	display: none;
+}
+
+/* home section */
+
+#home{
+   
+    height: 92vh;
+    width: 100%;
+    background: url(mainimg.jpeg);
+    background-size: cover;
+}
+
+.mainhome{
+	padding: 180px;
+	margin-top: 2px;
+	text-align: center;
+	justify-content: center;
+	font-family: copperplate;
+	color: #17b393;
+}
+
+.borderhome{
+    color: black;
+    font-size: 40px;
+    font-family: perpetua;
+}
+
+.bg{
+	font-size: 35px;
+	text-align: center;
+}
+
+.brief{
+	font-size: 20px;
+	font-family: monaco;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
