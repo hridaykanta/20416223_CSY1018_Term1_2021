@@ -48,7 +48,7 @@ label{
    
     height: 92vh;
     width: 100%;
-    background: url(mainimg.jpeg);
+    background: url(mainimage.jpg);
     background-size: cover;
 }
 
@@ -78,8 +78,73 @@ label{
 	color: black;
 }
 
+/*portfolio section*/
 
+.H1{
+	color: whitesmoke;
+	font-weight: bolder;
+	text-align: center;
+	font-family: copperplate;
+	padding: 15px;
+	margin: 0px;
+	font-size: 50px;
+}
 
+.portfolio{
+	background-image: url(portfolioimg.jpg);
+}
+
+.portfolio .myportfolio{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.portfolio .myportfolio .box{
+	height: 17rem;
+	width: 30rem;
+    border-radius: 1rem;
+	margin: 5rem;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.portfolio .myportfolio .box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.portfolio .myportfolio .box:hover img{
+	transform: scale(1.1);
+}
+
+/* contact section */
+
+.maintxt{
+	text-align: center;
+	padding: 35px;
+	font-size: 30px;
+	color: #17b393;
+	font-family: copperplate;
+}
+
+#maintxt{
+	color: black;
+	padding: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#contact{
+	background-image: url(contactimg.jpeg);
+	width: 100%;
+	height: 92.7vh;
+	text-align: center;
+	background-repeat: no-repeat;
+
+}
 
 
 
