@@ -21,13 +21,14 @@
 
 .navigationbar a{
 	font-family: copperplate;
-	margin: 20px;
+	margin: 15px;
 	font-weight: bolder;
 	font-size: 25px;
 	color: white;
     line-height: 21px;
     text-decoration: underline;
 }
+
 
 label{
 	margin: 0 30px 0 0;
@@ -46,10 +47,11 @@ label{
 
 #home{
    
-    height: 92vh;
+    height: 93vh;
     width: 100%;
     background: url(mainimage.jpg);
     background-size: cover;
+    display: flex;
 }
 
 .mainhome{
@@ -146,10 +148,110 @@ label{
 
 }
 
+/* CV section */
 
+.name{
+	color: #ab1515;
+	font-weight: bolder;
+    text-align: center;
+    font-family: copperplate;
+    font-size: 30px;
+}
 
+.image img{
+	height: 290px;
+	width: 210px;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
 
+.t2{
+	font-family: copperplate;
+	font-size: 35px;
+	color: #17b393;
+}
 
+.education{
+	text-align: center;
+	font-family: copperplate;
+	font-size: 30px;
+	font-weight: bolder;
+	text-decoration: underline overline;
+	text-decoration-color: #17b393;
+}
 
+.table1{
+	font-family: papyrus;
+	border-style: solid;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-color: #ab1515;
+}
 
+.skill{
+	display: flex;
+	border-style: solid;
+	text-align: center;
+	justify-content: center;
+	color: black;
+	padding: 20px;
+	font-family: papyrus;
+	font-size: 18px;
+	border-color: #ab1515;
+}
+
+.h2{
+	text-align: center;
+    font-family: copperplate;
+    text-decoration: underline overline;
+    text-decoration-color: #17b393;
+    font-size: 30px;
+}
+
+.h3{
+	text-align: center;
+	font-family: copperplate;
+	text-decoration: underline overline;
+	text-decoration-color: #17b393;
+	font-size: 30px;
+}
+
+.experience{
+	display: flex;
+	border-style: solid;
+	text-align: center;
+	justify-content: center;
+	color: black;
+	padding: 25px;
+	font-family: papyrus;
+	font-size: 20px;
+	border-color: #ab1515;
+}
+
+.h4{
+	text-align: center;
+	font-family: copperplate;
+	text-decoration: underline overline;
+	text-decoration-color: #17b393;
+	font-size: 30px;
+}
+
+.personal{
+	display: flex;
+	border-style: solid;
+	text-align: center;
+	justify-content: center;
+	color: black;
+	padding: 25px;
+	font-family: papyrus;
+	font-size: 20px;
+	border-color: #ab1515;
+}
 
