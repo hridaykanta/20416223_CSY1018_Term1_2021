@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site Report</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="navmenu">
+		<label for="menutoggle">&#9776;</label>
+		<input type="checkbox" id="menutoggle"/>
+		<nav class="navigationbar">
+			<a href="index.html">HOME</a>
+			<a href="portfolio.html">PORTFOLIO</a>
+			<a href="contact.html">CONTACT</a>
+			<a href="cv.html">CV</a>
+			<a href="sitereport.html"><span>SITE REPORT</span></a>
+			</nav>
+		</div>
+
+		<section class="mysite">
+			<div class="klass">
+				<h1 class="abc">MY SITE REPORT</h1><br><br>
+			</div>
+
+		<section class="site1">
+			<h2 class="over"> OVERVIEW </h2><br>
+			<p>The first landing page of my portfolio website is the Home Page (Index) which you will be seeing<br>
+			and after that you can spot the navigation menu at the top where,<br>
+				you can navigate to all the pages of my Portfolio Website. <br>
+				The Navigation menu consists of 5 menu options :</p><br>
+
+				<ul>
+					<li>Home Page</li>
+					<li>Personal Portfolio</li>
+					<li>Contact Details</li>
+					<li>Curriculum Vitae (CV)</li>
+					<li>Site Report</li>
+				</ul>
+
+			<div>
+				<h2 class="homep">HOME PAGE</h2>
+				In my Home Page, I have shortly briefed about myself and the purpose of creating this website<br>
+				I have also placed a background image to make it more lively.
+			</div>
+
+			    <h2 class="portfoliop">PORTFOLIO PAGE</h2>
+			    In this page, I have added 6 of my personal images.<br>
+			    I have also added a background image. <br>
+			    I have used the flex display and flex wrap property to keep the images<br>
+			    horizontally as well as vertically aligned.
+
+			    <h2 class="contactp">CONTACT PAGE</h2>
+			    In this page, I have provided my personal contact details.<br>
+			    I have also set a form to fill in so that a person can contact me directly.<br>
+			    I have also set a background image for the page.
+
+			    <h2 class="curriculumv">CURRICULUM VITAE</h2>
+			    In the CV page I have listed all my academic qualifications.<br>
+			    I have also shared my skille, experience and contact information.<br>
+			    I have also placed my image on the top left corner.
+
+			    <h2 class="siter">SITE REPORT</h2>
+			    In this page, I have provided all the necessary information regarding this website project.<br>
+			    In the lower section, I have given the reference of the codes and images that I have used to make this website.<br>
+			    The HTML and CSS validation is also included in this page.
+
+
+			</section>
+
+
+    <div>
+    	<h2 class="dp">DEVELOPMENT EXPERIENCE</h2><br><br>
+    </div>
+
+    <div id="siterep">
+    	<h1 class="prob">PROBLEMS FACED WHILE MAKING REPORT</h1>
+    	<p>There was no major problem that I faced while making this website.<br>
+    		The only problem was making the hamburger icon for the responsive mode.<br>
+    		I took necessary help from my instructor where, he guided me properly regarding the issue I had.
+			</p><br><br>
+		</div>
+
+	<div class="rep">
+			<h2 class="overprob">HOW I OVERCAME MY PROBLEMS</h2>
+			<p>Talking about my problems, as my instructor told me to go through the tutorials on the internet<br> regarding the hamburger icon, I found one to be very helpful. I seeked help from the given tutorial on YouTube<br>
+			I have also referenced the code down below regarding the hamburger icon.</p><br><br>
+			</div>
+
+			<div class="refindex">
+				<h2 id="head">REFERENCING CODES FROM index.html</h2>
+				<p class="ind">
+					label for="menutoggle">&#9776;/label<br>
+					input type="checkbox" id="menutoggle"<br>
+					Reference:- <br>
+					Responsive menu with media queries <br>
+					Using CSS3, Youtube. Available at:-<br>
+					https://www.youtube.com/watch?v=xMTs8tAapnQ<br><br>
+				</p>
+			</div>
+
+		<div class="refcss">
+		<h2 class="reffcss">REFERENCING CODES FROM style.css</h2>
+		<p class="pqr">
+		THESE ARE THE LINES FROM 33 to 43<br>
+			/* NAVBAR */<br>
+			label{<br>
+		     	margin: 0 30px 0 0;<br>
+			    font-size: 20px;<br>
+			    line-height: 20px;<br>
+			    display: none;<br>
+			    width: 35px;<br>
+			    float: right;<br>
+            }<br>
+
+            #toggle{<br>
+                display: none;<br>
+            }<br><br><br>
+
+
+        THESE ARE FROM MEDIA QUERY<br><br>
+        @media only screen and (max-width:500px;)<br>{<br>
+
+            /*Hamburger Icon*/<br>
+            label<br>{<br>
+                display: block;<br>
+                cursor: pointer;<br>
+
+            }<br>
+                .navigationbar{<br>
+                    text-align: center;<br>
+                    width: 100%;<br>
+                    display: none;<br>
+                    font-size: 6px;<br>
+                }<br>
+
+                .navigationbar a{<br>
+                    display: block;<br>
+                    border-bottom: 1px solid #EAEAEB;<br>
+                    margin: 0;<br>
+                }<br>
+            #menutoggle:checked + .navigationbar{<br>
+                    display: flex;<br>
+                }
+            <br><br><br>
+
+        REFERENCE:<br>
+        Responsive Menu With Media Queries (Checkbox Trick) -<br>
+          Using CSS3, YOUTUBE. Available at:<br>
+          https://www.youtube.com/watch?v=xMTs8tAapnQ<br><br>
+      </p>
+  </div>
+
+        <section id="refport1">
+        	<h2 class="refimg">REFERENCING IMAGES THAT I HAVE USED IN THIS WEBSITE</h2><br>
+        	<div class="imageref">
+        		<div class="jpeg">
+        			<img src="portfolioimg.jpg" alt="">
+        		</div>
+        		<p class="reftxt">Image Reference: <br>
+        			Portfolio Background Image from:<br>
+        			https://www.hdimages.pics/images/quotes/english/general/wooden-background-hd-image-52650-308037.jpg <br></p><br><br>
+
+
+        		<div class="jpeg">
+        			<img src="mainimage.jpg" alt="">
+        			</div>
+        		<p class="reftxt">Image Reference: <br>
+        			Home Background Image from:<br>
+        		https://pixabay.com/images/search/marble%20background/</p><br>
+
+        		<div class="jpeg">
+        			<img src="contactimg.jpeg" alt="">
+        		</div>
+        		<p class="reftxt">Image Reference: <br>
+        			Contact Background Image from:<br>
+        		https://www.pexels.com/photo/three-black-handset-toys-821754/</p><br>
+
+        	</div>
+        </section>
+
+        <section id="validation">
+        	<h2 class="headin">HTML AND CSS VALIDATION</h2>
+
+        	<div class="valid">
+        		<div class="valid1">
+        			<img src="indexvalid.png" alt="">
+        		</div>
+
+        		<div class="valid1">
+        			<img src="contactvalid.png" alt="">
+        		</div>
+
+        		<div class="valid1">
+        			<img src="portfoliovalid.png" alt="">
+        		</div>
+
+        		<div class="valid1">
+        			<img src="cvvalid.png" alt="">
+        		</div>
+
+        		<div class="valid1">
+        			<img src="sitereportvalid.png" alt="">
+        		</div>
+
+        		<div class="valid1">
+        			<img src="cssvalid.png" alt="">
+        		</div>
+
+        	</div>
+        </section>
+
+        <div class="end">
+        	HRIDAY KANTA RAI<br>
+        	20416223
+
+        </div>
+    </section>
+</body>
+</html>
+
+        		
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			    

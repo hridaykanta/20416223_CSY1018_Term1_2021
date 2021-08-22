@@ -255,3 +255,305 @@ label{
 	border-color: #ab1515;
 }
 
+/* SITE REPORT */
+
+.klass{
+	padding: 5px;
+	margin: 5px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: copperplate;
+	color: #ab1515;
+}
+
+.mysite{
+	background-color: #17b393;
+	color: black;
+	font-family: arial;
+	font-size: 15px;
+	padding: 15px;
+}
+
+.abc{
+	color: whitesmoke;
+	font-size: 50px;
+}
+
+.overprob{
+	color: #ab1515;
+	font-weight: bolder;
+	font-family: arial;
+	box-shadow: 3px 3px 4px 3px black;
+	font-size: 30px;
+	text-align: center;
+	font-family: copperplate;
+
+}
+
+#siterep{
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+}
+
+.prob{
+	color: #ab1515;
+	font-weight: bolder;
+	font-family: copperplate;
+    font-size: 30px;
+    box-shadow: 3px 3px 4px 3px black;
+}
+
+.rep{
+	text-align: center;
+	background-color: white;
+	font-size: 20px;
+}
+
+.refindex{
+	text-align: center;
+	background-color: white;
+	font-size: 20px;
+}
+
+#head{
+	color: #ab1515;
+	font-weight: bolder;
+	font-family: copperplate;
+	font-size: 30px;
+	box-shadow: 3px 3px 4px 3px black;
+}
+
+.refcss{
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-size: 30px;
+}
+
+.reffcss{
+	color: #ab1515;
+	font-weight: bolder;
+	font-family: copperplate;
+	font-size: 30px;
+	box-shadow: 3px 3px 4px 3px black;
+}
+
+.pqr{
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+
+.refimg{
+	color: #ab1515;
+	font-size: 30px;
+	font-weight: bolder;
+	box-shadow: 3px 3px 4px 3px black;
+	text-align: center;
+	background-color: white;
+	font-family: copperplate;
+}
+
+.over{
+	color: #ab1515;
+	font-weight: bolder;
+	box-shadow: 3px 3px 4px 3px black;
+	background-color: white;
+	font-family: copperplate;
+}
+
+.site1{
+	background-color: white;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+
+.homep{
+	color: #17b393;
+	font-family: copperplate;
+}
+
+.portfoliop{
+     color: #17b393;
+     font-family: copperplate;
+}
+
+.contactp{
+	color: #17b393;
+	font-family: copperplate;
+}
+
+.curriculumv{
+	color: #17b393;
+	font-family: copperplate;
+}
+
+.siter{
+	color: #17b393;
+	font-family: copperplate;
+}
+
+.dp{
+	text-align: center;
+	font-family: copperplate;
+    font-size: 40px;
+    color: white;
+    padding-top: 35px;
+}
+
+#refport1{
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-color: #FFFDD0;
+}
+
+.reftxt{
+	color: black;
+}
+
+#refport1 .imageref{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#refport1 .imageref .jpeg{
+	height: 20rem;
+	width: 30rem;
+	border-radius: 1rem;
+	margin: 5rem;
+	overflow: hidden;
+}
+
+#refport1 .imageref .jpeg img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.headin{
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: copperplate;
+	box-shadow: 3px 3px 4px 3px black;
+	text-align: center;
+	color: #ab1515;
+	background-color: white;
+}
+
+#validation{
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-color: #ADD8E6;
+}
+
+#validation .valid{
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+#validation .valid .valid1{
+	height: 70%;
+	width: 70%;
+	border-radius: 2rem;
+	margin: 5rem;
+	overflow: hidden;
+}
+
+#validation .valid .valid1 img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.end{
+	text-align: center;
+	font-family: copperplate;
+	font-size: 50px;
+	color: white;
+}
+
+@media only screen and (max-width:500px){
+
+	/*Hamburger Icon*/
+	label{
+		display: block;
+		cursor: pointer;
+	}
+
+	   .navigationbar{
+	 	  text-align: center;
+	 	  width: 100%;
+	 	  display: none;
+	 	  font-size: 6px;
+	 }
+       .navigationbar a{
+          display: block;
+          border-bottom: 2px solid black;
+          margin: 2px;
+       }
+
+    #menutoggle:checked + .navigationbar{
+    	display: inline-block;
+    }
+    
+    /*HOME SECTION*/
+    #home{
+    	font-size: 11px;
+    	text-align: center;
+    	justify-content: center;
+    	object-fit: cover;
+    }
+    
+    .H1{
+    	text-align: center;
+    	font-size: 26px;
+    }
+    
+    .borderhome{
+    	text-align: center;
+    	font-size: 21px;
+    }
+
+    .bg{
+    	text-align: center;
+    	font-size: 26px;
+    }
+    
+    /*CV*/
+    .table1{
+    	text-align: center;
+    	object-fit: cover;
+    	font-size: 16px;
+    }
+
+    /*PORTFOLIO*/
+    .H1{
+    	font-size: 21px;
+    }
+
+    /*SITE REPORT*/
+    .reftxt{
+    	color: white;
+    	font-size: 9px;
+    }
+
+    .ind{
+        font-size: 16px;
+    	} 
+    
+    .pqr{
+    	font-size: 16px;
+    }  
+      }
+
+
+
+
+
